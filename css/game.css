@@ -1,0 +1,42 @@
+.background    { background: rgb(196, 255, 145);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.poison        { background: rgb(203, 120, 226); }
+.wall          { background: rgb(181, 136, 12);   }
+.floater       { background: rgb(33, 107, 27); }
+.portal        { background: rgb(130, 242, 255); }
+.portal2       { background: rgb(255, 84, 84); }
+.portal3        { background: rgb(130, 242, 255); }
+.portal4       { background: rgb(255, 84, 84); }
+.ladder        { background: rgb(109, 79, 2); }
+.fire          { background: rgb(214, 61, 38);
+                 box-shadow: -4px -7px 8px orange; }
+.ground        { background: rgb(79, 56, 0); }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(234, 206, 46); }
+.scoin  { background: rgb(241, 229, 89); }
+.player { background: rgb(64, 64, 64); }
+.glow   { background: rgb(255, 148, 0); }
+.normal { background: rgb(64, 64, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(109, 147, 25);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.glowing .player {
+  box-shadow: -4px -7px 8px orange, 4px -7px 8px orange;
+}
+.norm .player {
+  background: rgb(64, 64, 64);
+}
